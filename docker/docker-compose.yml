@@ -6,7 +6,7 @@ volumes:
 
 services:
     web:
-        image: tophant/arl:${ARL_VERSION:-latest}
+        image: furryheili/arl:Backup
         container_name: arl_web
         restart: unless-stopped
         depends_on:
@@ -27,7 +27,7 @@ services:
           - TZ=Asia/Shanghai
 
     worker:
-        image: tophant/arl:${ARL_VERSION:-latest}
+        image: furryheili/arl:Backup
         container_name: arl_worker
         restart: unless-stopped
         depends_on:
@@ -47,7 +47,7 @@ services:
           - TZ=Asia/Shanghai
 
     scheduler:
-      image: tophant/arl:${ARL_VERSION:-latest}
+      image: furryheili/arl:Backup
       container_name: arl_scheduler
       restart: unless-stopped
       depends_on:
