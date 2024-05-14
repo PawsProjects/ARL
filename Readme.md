@@ -4,6 +4,20 @@
 该版本Fork时间为7个月之前
 
 ### 运行方法
+docker-compose安装（曾经的官方推荐）
+```
+    cd /opt/
+    mkdir docker_arl
+    wget -O docker_arl/docker.zip https://github.com/PawsProjects/FurARL/releases/download/Release/DockerBackup.zip
+    cd docker_arl
+    unzip -o DockerBackup.zip
+    docker-compose pull
+    docker volume create arl_db
+    docker-compose up -d
+```
+本docker镜像备份于七月前，可能过时或者含有已知漏洞
+
+---
 从源码安装
 ```
 wget https://raw.githubusercontent.com/PawsProjects/FurARL/master/misc/setup-arl.sh
