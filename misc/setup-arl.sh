@@ -51,7 +51,7 @@ if ! command -v wih &> /dev/null
 then
   echo "install wih ..."
   ## 安装 WIH
-  wget https://github.com/1c3z/arl_files/raw/master/wih/wih_linux_amd64 -O /usr/bin/wih && chmod +x /usr/bin/wih
+  wget https://github.com/3122365857/arl_files_Backup/raw/master/wih/wih_linux_amd64 -O /usr/bin/wih && chmod +x /usr/bin/wih
   wih --version
 fi
 
@@ -65,12 +65,12 @@ systemctl start rabbitmq-server
 
 if [ ! -d ARL ]; then
   echo "git clone ARL proj"
-  git clone https://github.com/TophantTechnology/ARL
+  git clone https://github.com/PawsProjects/FurARL ARL
 fi
 
 if [ ! -d "ARL-NPoC" ]; then
   echo "git clone ARL-NPoC proj"
-  git clone https://github.com/1c3z/ARL-NPoC
+  git clone https://github.com/3122365857/ARL-NPoC-Backup ARL-NPoC
 fi
 
 cd ARL-NPoC
@@ -81,14 +81,14 @@ cd ../
 
 if [ ! -f /usr/local/bin/ncrack ]; then
   echo "Download ncrack ..."
-  wget https://github.com/1c3z/arl_files/raw/master/ncrack -O /usr/local/bin/ncrack
+  wget https://github.com/3122365857/arl_files_Backup/raw/master/ncrack -O /usr/local/bin/ncrack
   chmod +x /usr/local/bin/ncrack
 fi
 
 mkdir -p /usr/local/share/ncrack
 if [ ! -f /usr/local/share/ncrack/ncrack-services ]; then
   echo "Download ncrack-services ..."
-  wget https://github.com/1c3z/arl_files/raw/master/ncrack-services -O /usr/local/share/ncrack/ncrack-services
+  wget https://github.com/3122365857/arl_files_Backup/raw/master/ncrack-services -O /usr/local/share/ncrack/ncrack-services
 fi
 
 mkdir -p /data/GeoLite2
