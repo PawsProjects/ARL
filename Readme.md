@@ -1,6 +1,7 @@
 ## ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统
 原有Readme已备份， 请移步至 Readme-Old <br>
 [ARL官方仓库](https://github.com/TophantTechnology/ARL) https://github.com/TophantTechnology/ARL
+该版本Fork时间为7个月之前
 
 ### 运行方法
 从源码安装
