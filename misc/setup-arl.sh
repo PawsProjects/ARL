@@ -65,7 +65,7 @@ systemctl start rabbitmq-server
 
 if [ ! -d ARL ]; then
   echo "git clone ARL proj"
-  git clone https://github.com/PawsProjects/FurARL ARL
+  git clone https://github.com/PawsProjects/ARL ARL
 fi
 
 if [ ! -d "ARL-NPoC" ]; then
