@@ -10,6 +10,7 @@ chmod +x setup-arl.sh
 ./setup-arl.sh
 ```
 ### 目标
+
 -[x] 修复构建文件依赖，可以使用源码构建
 -[ ] 重建Docker镜像，可以直接通过docker-compose部署
 -[ ] 增加对IP资产的支持
