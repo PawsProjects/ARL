@@ -8,7 +8,7 @@ docker-compose安装（曾经的官方推荐）
 ```
     cd /opt/
     mkdir docker_arl
-    wget -O docker_arl/docker.zip https://github.com/PawsProjects/FurARL/releases/download/Release/DockerBackup.zip
+    wget -O docker_arl/docker.zip https://github.com/PawsProjects/ARL/releases/download/Release/DockerBackup.zip
     cd docker_arl
     unzip -o DockerBackup.zip
     docker-compose pull
@@ -20,7 +20,7 @@ docker-compose安装（曾经的官方推荐）
 ---
 从源码安装
 ```
-wget https://raw.githubusercontent.com/PawsProjects/FurARL/master/misc/setup-arl.sh
+wget https://raw.githubusercontent.com/PawsProjects/ARL/master/misc/setup-arl.sh
 chmod +x setup-arl.sh
 ./setup-arl.sh
 ```
