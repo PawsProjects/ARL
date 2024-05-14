@@ -2,8 +2,8 @@ urllib3==1.25.3
 colorlog==6.7.0
 pymongo==3.13.0
 Flask==2.0.3
-Werkzeug==2.0.3
-celery==5.1.2
+Werkzeug==2.2.3
+celery==5.2.2
 flask-restx==1.0.3
 requests==2.26.0
 dnspython==2.2.1
